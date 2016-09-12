@@ -1,0 +1,10 @@
+DROP USER 'lastname';
+go
+ALTER GROUP 'group'
+    REMOVE MEMBERS 'lastname';
+go
+ALTER GROUP 'System'
+    REMOVE MEMBERS 'lastname';
+go
+DELETE FROM alerts.conversions WHERE Conversion = 'fullname';
+go

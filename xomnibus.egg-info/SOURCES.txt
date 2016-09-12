@@ -1,0 +1,12 @@
+setup.py
+xomnibus/__init__.py
+xomnibus/base.py
+xomnibus/create.py
+xomnibus/deploy.py
+xomnibus/omnibus.py
+xomnibus/remove.py
+xomnibus.egg-info/PKG-INFO
+xomnibus.egg-info/SOURCES.txt
+xomnibus.egg-info/dependency_links.txt
+xomnibus.egg-info/not-zip-safe
+xomnibus.egg-info/top_level.txt

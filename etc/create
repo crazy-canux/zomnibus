@@ -1,0 +1,18 @@
+CREATE USER 'lastname'
+    ID %d
+    FULL NAME 'fullname'
+    PASSWORD '/UQ8Mfj3mv5SsTGM6m/McQ==' ENCRYPTED
+    PAM FALSE;
+go
+ALTER GROUP 'group'
+    ASSIGN MEMBERS 'lastname';
+go
+ALTER GROUP 'System'
+    ASSIGN MEMBERS 'lastname';
+go
+ALTER USER 'lastname'
+    SET ENABLED TRUE;
+go
+INSERT INTO alerts.conversions (KeyField, Colname, Value, Conversion)
+    VALUES ('OwnerUID%d', 'OwnerUID', %d, 'fullname');
+go
