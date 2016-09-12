@@ -41,7 +41,7 @@ setup(
     maintainer='Canux CHENG',
     maintainer_email='canuxcheng@gmail.com',
     description='create/remove omnibus users automatic.',
-    long_description=read('README.md'),
+    long_description=read('README.rst'),
     license='GPL',
     platforms='any',
     keywords='omnibus tools',

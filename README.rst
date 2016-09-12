@@ -1,8 +1,12 @@
-# About this project
+About this project
+==================
 
 Add or remove a user from omnibus DB automatic.
 
-# How to use
+How to use
+==========
+
+::
 
     ./omnibus.py --help
     ./omnibus.py create --help
@@ -10,11 +14,15 @@ Add or remove a user from omnibus DB automatic.
 
 Alternative option:
 
+::
+
     -F force to rewrite the exist file.
 
     -P your omnibus/db git repo path.
 
 Deploy option:
+
+::
 
     -b your request branch.
 
@@ -22,11 +30,15 @@ Deploy option:
 
 Action option:
 
+::
+
     create
 
     remote
 
 Create option:
+
+::
 
     -l last name(family name) as the file name.
 
@@ -36,8 +48,12 @@ Create option:
 
 Remove option:
 
+::
+
     -s string: search the string and remove the user.
 
-# TODO:
+TODO:
+=====
 
 1. Documents.
+

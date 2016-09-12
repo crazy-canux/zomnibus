@@ -14,7 +14,7 @@ Example:
     ./omnibus.py -h
 """
 
-__version__ = "3.2.0.0"
+__version__ = "3.3.0.0"
 __description__ = """Config omnibus automatic.
 Any question contact the author Canux CHENG.
 Email: canuxcheng@gmail.com."""
