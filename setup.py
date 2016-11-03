@@ -17,7 +17,7 @@ import os
 
 from setuptools import setup, find_packages
 
-import xomnibus
+import omnibus
 
 
 def read(readme):
@@ -34,8 +34,8 @@ INSTALL_REQUIRES = [
 ]
 
 setup(
-    name='xomnibus',
-    version=xomnibus.__version__,
+    name='zomnibus',
+    version=omnibus.__version__,
     author='Canux CHENG',
     author_email='canuxcheng@gmail.com',
     maintainer='Canux CHENG',
@@ -45,7 +45,7 @@ setup(
     license='GPL',
     platforms='any',
     keywords='omnibus tools',
-    url='https://github.com/crazy-canux/xomnibus',
+    url='https://github.com/crazy-canux/zomnibus',
     install_requires=INSTALL_REQUIRES,
     packages=find_packages(),
     zip_safe=False,

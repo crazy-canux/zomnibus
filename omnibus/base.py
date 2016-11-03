@@ -15,9 +15,8 @@ import logging
 import argparse
 import os
 import sys
-path = os.path.abspath(os.path.dirname(__file__) + "/" + "..")
-sys.path.insert(0, path)
-import xomnibus
+sys.path.insert(0, os.path.abspath('..'))
+import omnibus
 
 
 class OmnibusAuto(object):
@@ -28,8 +27,8 @@ class OmnibusAuto(object):
     def __init__(self, name=None, version='', description=''):
         # Init the basic information.
         self.name = os.path.basename(sys.argv[0]) if not name else name
-        self.version = xomnibus.__version__
-        self.description = xomnibus.__description__
+        self.version = omnibus.__version__
+        self.description = omnibus.__description__
         self.username = os.getenv("USER")
         self.path = "/home/%s/GIT/omnibus/db" % self.username
 
